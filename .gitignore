@@ -1,0 +1,11 @@
+# Kaynak dokümanlar ve dahili dosyalar (siteye dahil edilmez)
+*.pdf
+*.mp4
+helen-dental-website-playbook.md
+fatges logo.png
+mobil_gorunum.png
+design-system/
+*.psd
+*.ai
+Thumbs.db
+desktop.ini
