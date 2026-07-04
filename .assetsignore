@@ -1,0 +1,17 @@
+# Cloudflare Workers statik varliklari: bu kaliplar YUKLENMEZ, yani public
+# olarak yayinlanmaz. Workers (Pages'in aksine) .git klasorunu otomatik
+# haric tutmaz; asagidaki .git satiri .git exposure sorununu kapatir.
+# Sozdizimi .gitignore ile aynidir.
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+.wrangler
+node_modules
+# Kaynak/ic dosyalar (yanlislikla commit edilse bile yayinlanmasin)
+*.pdf
+*.mp4
+*.md
+.DS_Store
+Thumbs.db
+desktop.ini

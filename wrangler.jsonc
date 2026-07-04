@@ -1,0 +1,16 @@
+{
+  // Cloudflare Workers - statik varlik dagitimi (build yok).
+  // Bu dosya commit edildigi icin dagitim deterministiktir ve her build'de
+  // wrangler'in ayarlari yeniden tahmin etmesi engellenir.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fatges",
+  "compatibility_date": "2026-07-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    // Site kok dizinden yayinlanir; .assetsignore ile .git vb. haric tutulur.
+    "directory": "."
+  }
+}
